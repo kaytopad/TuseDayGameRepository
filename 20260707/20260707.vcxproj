@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20260707_Function1_imai.cpp" />
-    <ClCompile Include="20260707_Prac1_imai.cpp" />
+    <ClCompile Include="20260707_Functio2_imai.cpp" />
+    <ClCompile Include="20260707_PracMain2_imai.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="20260707_Header1_imai.h" />
+    <ClInclude Include="20260707_Header2_imai.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
