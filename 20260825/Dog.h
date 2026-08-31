@@ -5,8 +5,9 @@ using namespace std;
 class Dog
 	
 {
-public:
+private:
 	string name;
+public:
 	Dog(string Name);
 	void ShowProfile();
 	

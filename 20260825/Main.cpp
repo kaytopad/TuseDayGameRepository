@@ -11,11 +11,12 @@ int main(void)
 
 	cin >> dogName;
 
+	
 	Dog dog(dogName);
 
 	dog.ShowProfile();
 
-	//プレイヤークラスを実体化
+	//プレイヤークラスを実体化（インスタンス化）
 	//Example example;
 
 	//example.hp = 100;
