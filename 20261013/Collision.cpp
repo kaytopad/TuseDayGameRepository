@@ -4,7 +4,7 @@
 bool CheckSphereTriangle(
 	Vector3 sphereCenter,
 	float sphereRadius,
-	const Polygon& polygon) 
+	const Polygon3D& polygon) 
 {
 	Vector3 a = polygon.GetA();
 	Vector3 normal = polygon.GetNormal();
@@ -31,7 +31,7 @@ bool CheckSphereTriangle(
 
 bool IsPointsideTriangle(
 	Vector3 point,
-	const Polygon& polygon
+	const Polygon3D& polygon
 )
 {
 	Vector3 a = polygon.GetA();
