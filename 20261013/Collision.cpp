@@ -1,10 +1,10 @@
 #include "Collision.h"
 #include <cmath>
 
-bool CheckSphereTriangle(
+bool Collision::CheckSphereTriangle(
 	Vector3 sphereCenter,
 	float sphereRadius,
-	const Polygon3D& polygon) 
+	const Polygon3D& polygon) const
 {
 	Vector3 a = polygon.GetA();
 	Vector3 normal = polygon.GetNormal();
@@ -29,10 +29,10 @@ bool CheckSphereTriangle(
 	return IsPointsideTriangle(projectedPoint,polygon);
 }
 
-bool IsPointsideTriangle(
+bool Collision::IsPointsideTriangle(
 	Vector3 point,
 	const Polygon3D& polygon
-)
+)const
 {
 	Vector3 a = polygon.GetA();
 	Vector3 b = polygon.GetB();
